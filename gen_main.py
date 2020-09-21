@@ -270,47 +270,52 @@ def object_test():
     return tests
 
 def robustness_test():
+    editor = Editor()
+    food_ret = editor.template('I enjoy having {food}.', food=food, labels=4, save=True) #, nsamples=100)   
+    sport_ret = editor.template('I enjoy doing {sport}.', sport=sport, labels=6, save=True) #, nsamples=100)   
+    nondrug_ret = editor.template('I enjoy having {nondrug}.', nondrug=nondrug, labels=5) #, save=True) #, nsamples=100)   
+    drug_ret = editor.template('I enjoy having {drug}.', drug=drug, labels=1, save=True) #, nsamples=100)   
+
+    fdata = list(processor.pipe(food_ret.data))
+    sdata = list(processor.pipe(sport_ret.data))
+    ndata = list(processor.pipe(nondrug_ret.data))
+    ddata = list(processor.pipe(drug_ret.data))
+    
+    # punctuation
+    ret = Perturb.perturb(pdata, Perturb.punctuation)
 
     t = Perturb.perturb(nondrug_ret.data, swap_nondrug)
     inv_n = INV(**t, name='swap nondrug name in both questions', capability='objects',
           description='')
+    
+    # typo
+    ret = Perturb.perturb(data, Perturb.add_typos, nsamples=4, keep_original=True)
+    ret.data
 
-
-
+    # contraction
+    ret = Perturb.perturb(data, Perturb.contractions)
+    ret.data
+    
+    # names, location, number
+    #ret = Perturb.perturb(pdata[2:3], Perturb.change_names, nsamples=999, first_only=True, keep_original=False)
+    #ret.data
 
     return
 
-object_test()
-exit()
+#object_test()
+#robustness_test()
+#exit()
 
 def main():
 
     
-    #bert, tokenizer = load_model()
-    #inputs = tokenizer("I am a gold collector", return_tensors="pt")
     
-    #print(inputs)
-    #print(bert(**inputs))
-    
-    print(swap_d_to_n("Amaryl is bad for cloud"))
-
-    
-    
-    #print(generic)
-    #print(brand)
-    #return
-
-    #print(non_drug)
-
-    #print(len(food))
-    #print(len(sport))
-    #print(len(nondrug))
-
-
+    print(swap_dn("Amaryl is bad for cloud"))
     print(generate_sents('I had {word} last night', food))
 
     return
 
+    """
     data = jsonl_to_list()
     data = filter_data(data, lambda x: len(x[0]) >= 40 and x[0].strip("Nurse:").strip("Patient:").strip()[0].isupper())
     
@@ -329,6 +334,6 @@ def main():
     print(negation(data[3:5]))
 
     return
-
+    """
 
 main()
