@@ -1,0 +1,291 @@
+nurse: Okay, now they're going to start today's grade study visit today is February 1st.
+nurse: 2018 and the local time is 9:13 in the morning. My name is Hoda is full and I am the clinical research coordinator at grade study site. I am with a.
+nurse: Grade study participants in the ID number 2 4 1 0 1 7 0 and he has given permission to have this visit recorded. There are no other people coming with this participant in this is exam room. This is a one-year annual visit and the visit number is 2
+nurse: Okay, so, um , um we do have the database here. So, lets go ahead and
+nurse: Play 3 ok
+nurse: You have one, awesome. Thank you again.
+nurse: hahaha
+nurse: Alright, are you ok, with signing the database consent form, as I said it's totally optional so all it does is.
+nurse: it will give us permission to keep your contact information and your diabetes history. So in the future if you have a reason or another study that we think you might be a good candidate for this will call you. So, would that be kept here? yes
+patient: And who has access to that? Oh, just our research team like anyone who has access right now access to our study information.
+nurse: I, have just you to sign.
+nurse: And you always, just like any other consent you have the right to you know ...
+nurse: The next one is the hippo form.
+nurse: Basically just talks about his information that will collect. I will have you as you want to give it a look of corporate and then at the top of every page is your last name
+nurse: first, name and then middle initial. Your last four of date of birth. Is four pages, the same thing
+nurse: you know, I
+nurse: its ok, just cross it out and then, write today's date next to the initial
+nurse: So, sorry, its just this legal document. Then, last one, this is the last thing I'll have you signing today.
+nurse: I'll leave you some questionnaires, but they don't have signatures, alright?
+nurse: Awesome, that's it. All right, for real this time let's get to visit
+nurse: Thanks you. So, lets just make sure you are elegible to do the visit, you know do the OGTT and everything? Alright, a any major surgeries or ilnesses during the past 7 days.
+nurse: And I have you fasted for at least 8 hours. When was the last time you had anything to eat or drink other than water?
+nurse: Last night. Okay.
+nurse: And any unusual diet in the past 3 days like fasting or any exercise.
+nurse: Any smoking within the past hour. Any alcohol within the past 8 hours. Good. Do you work overnight shifts, this morning? Good and a do you take your study medications today, this morning? Good
+nurse: Have you taken them the past 2 weeks? Have you taken any medication that?
+nurse: Affects your blood sugar like prednisone dexamethasone, something like that?
+nurse: and when was your last shot of insulin?
+patient: What time approximately?
+nurse: Okay, so everything checks out . Let do a finger poke to see where are you. You know, how your blood sugar is. Did you check if this morning yourself? No, ok, will check it for you.
+nurse: I will give you an alcohol swab
+nurse: which finger do you prefer, any finger?
+nurse: In the main hospital building they have like paintings on yourself.
+nurse: You are right, we need to do something about it that.
+nurse: Okay, I'm going to poke you with this. Heads up , I've heard of hurts more than your regular.
+nurse: Lancet. Ok. Did you drink enough water today?
+nurse: Sorry, I'm pinching just to get enough blood.
+nurse: 149 okay
+nurse: All right. I think you're all set here. So I'll have you go back to the waiting area will come get you started with the vital, weight, and the other other stuff, and then they will start an IV line together.
+nurse: Shortly after we start the blood draw, I'll bring you some questionnaire.
+nurse: You are busy during that time. Alright. See you later.
+nurse: So, I brought these questionnaires for you as promissed
+nurse: I don't know if you've done them in the past question is easy, the only thing I wanted to point out these have the follow-up question. So if you answer no then just skip all of these go question A. If you answer yes then we want you to answer all questions.
+nurse: this one is very, very straightforward. You know, as SAT questions, just darken the circle and then, with these more than one answer can be true. The rest is very straightforward?
+nurse: The D's just circle around number. Tha's a lot of paper. It is a lot, I'm not going to lie.
+nurse: And then they'd all done just check the box very easy. And with this one, the scale is between 0 and 6. So these like phrases are not part of the answer. So low is zero, the highest is six.
+nurse: we don't want your name or anything about any of these, unless you make a mistake and want to correct it and that is strike right over your message and initials and middle name.
+nurse: I'll leave you to that and I'll check back in with you in about like 30-45 minutes.
+nurse: Thank you.
+nurse: Since the last time you saw you any new diagnosis. Diagnosed with hypertension like high blood pressure. No high lipids, any heart attack.
+nurse: stroke, heart failure, any cancer diagnosis?
+nurse: wonderful, pancreatitis?
+nurse: As a serious thing, you know , ER visits just the one time for your ankle? when was it, do you remember the date?
+patient: October
+nurse: October I will look at your shop. Halloween Day, October 31st.
+nurse: Wow.
+nurse: What a nice trees for Hello Kitty. So was
+nurse: All right and just that one ER visits. Correct. Just one time , and no hospital stays. Any car accidents?
+nurse: any venous procedures? any amputations?
+nurse: I know... all this requestions. I know.
+nurse: Everything seems to be big. So, since the last time you saw you have you had your eyes checked?
+patient: No, I'm trying to schedule that now, but didn't send me the tell retinal bit.
+nurse: And have you been diagnosed with depression since your last visit?
+nurse: Okay, so you have a history of that and do you take treatment, like any medications for depression or anxiety now. So tell me about your alcohol consumption. How often do you drink alcohol never occasionally?
+nurse: never I never but I don't drink but I started drinking wine.
+nurse: Wow, nice.
+patient: Yeah, so it's I had that occasionally when you drink like one bottle since I've been back.
+nurse: So, just ocasionally, just recently. So how about smoking? You have never smoked?
+nurse: and so again some of these questions are repeated but since your last visit any life-threatening events any hospitalizations any major incapacities?
+nurse: any heart-related issues?
+nurse: any um, anything that resulted from overdose of any medications. Or did you have any low blood sugar to the point that you loss conciousness?
+nurse: lactic acidosis?
+nurse: Do you even know? No, I think I would? An you said, no pancreatitis, no cancer?
+nurse: And okay.
+nurse: So tell me about your meds. Did you take your metformin? Are you taking your my metforming? Yes, you know. are you taking two tablets in the morning two in the afternoon?
+nurse: Will you take the full dose of 2000 mg a day. Do you sometimes forget to take your metformin? You do. Okay, and have you ever cut back?
+patient: Later. Okay, I have come back and taking it . You know, I might have forget to take it. So it go to the point of taking a bottle with me, I brought it, a bottle of metforming to work.
+patient: That's a very very good idea. In case I forget. Because, before if I forget I can't do anything about it cuz I'm at work. Yes, that's a good idea.
+nurse: So have you ever cut back or stop taking your meds for my without telling you a doctor because you felt worse when you took it.
+patient: No, not since they switched over to that before it was killing my stomach.
+nurse: Yeah, but like it's all XI usually healps with GI side effects. So, when you travel or leave home, we kind of talk about that. Do you sometimes forget to bring along your metformin?.
+patient: You do forget sometimes. To bring it with me? Yeah.
+nurse: All right. And did you take all of your your meds yesterday. And when you feel your diabetes symptoms are under control? Does it ever happen if you stop taking your metformin?
+nurse: And sometimes some people think it's a real inconvenience taking your medications every single day. Do you feel it's a hassle?
+nurse: How often do you forget to taking all your metformin? Never or rarely? Once in a while. Sometimes. So, in the past 2 weeks how many doses of your metformin did you miss or skip?
+patient: Maybe once. I think one of them was I didn't take it in the morning. So I still follow it up with it. Like I probably took it by noon.
+nurse: So you took it? Yes, but I didn't take in the morning like I'm supposed. So, but still you take that that day's dose on my phone.
+nurse: All right, so that one day you took it later, but you did take it and other than that in the past to be.
+patient: I probably forgot it more times. So you forgot to take at one time. At least one time in the last two weeks. I thought I didn't take it.
+patient: All right.
+nurse: And so in the past. So you take 4 Tablets a day. So in the past 7 days, how many pills do you think you missed? None
+nurse: How about your ? Are you taking it regularly? Do you sometimes forget to take it? Have you ever cut back because you felt worst when you took it? No, I don't really feel ...
+nurse: So when you travel or leave home. Same question, do you sometimes forget to bring along your? Yes? Okay.
+nurse: Did you take all of it yesterday. Good. And you feel, when you feel like your diabetes symptoms are under control. Do you stop taking your ?
+nurse: And how about that? Do you feel to hassle taking you over to my Prime?
+nurse: Yes, all right.
+nurse: so same question about how often you forget taken it. Once in a while? sometimes? Sometimes, sometimes?
+patient: And I wouldn't. Because is two doses? the one I do forget is the afternoon one because it was taking my metformi, It's all right there, vitamins
+patient: I take right in the afternoon because that's the only one I take.
+nurse: Right. Okay, and so in the past 2 weeks, how many doses do you think you missed or skip
+patient: 82 or something like that
+nurse: alright, so
+nurse: Using you said you take Metformin XR we won't give you more meds today. So you have primer two tables around? Yes, I'm running out
+nurse: So, we would, lets see. yeah we will give you ? and cloraperide Lantus today. Not merformin? You said that had enough metformin. Do you think you're running low?
+patient: I'm probably have with me like two bottles
+nurse: Tomorrow's that's like 200 cap bottles.
+patient: I think yeah, I will double check about that. And then, for the Lantis, I'm on the last one. We won't give you more Lantis. I almost run out of that.
+nurse: I found was I when I talked with you back then you had enough meds, but then you postpone your you know.
+nurse: So I will give you the meds for today everything you have ready because we usually discuss them ahead of time. Then let us know if you're running low on Metformin and then you probably can arrange something that you can go to the VA and pick them up.
+nurse: Okay, so so you. Can I just order it from? No.... because it's like goes through our investigational Pharmacy. Its... well
+patient: Your prescription is in my prescription. I know but it doesn't go as far as I know. It doesn't go through the regular pharmacy but our investigational Pharmacy. Why is that? Honestly, I don't know I don't usually go to the VA so
+nurse: Andrew will know better. Um, so
+nurse: And let's see. So you take your Lantus. How many units
+nurse: Are you at right now?
+nurse: Tha's once a day injection. So, how about that in the past two weeks how many doses of that? Have you missed?
+nurse: And so let's talk about checking your blood sugar. Do you routinely monitor your blood sugar at home?
+patient: Lately, I guess I kind of stopped. Why??
+patient: Okay, so. Sometimes , its just a lot
+patient: I'll forget and then
+nurse: Also on average how many days?
+patient: a week you check? On average, maybe three.
+nurse: Three days a week, and that's once a day. In the past? but I was checking in the morning.
+nurse: So that's that's a good way of doing and why did you stop? Ok, so. Mm, becase it started to hurt. Okay, so let serious right now. Since you take glargine insulin, and also you glimepiride number one both of them.
+nurse: Have a known side effects of sometimes causing too low blood sugar. So, that's one thing. Second thing your A1C last time you checked out here was high with 9% And how do you check your A1c?
+nurse: VA recently VA
+nurse: Okay, so I will check for that. But all of that just makes it even more important for you to check your blood sugar first of all to make sure like if you feel off. If you feel unwell, then you want to make sure you're not having a low blood sugar second.
+nurse: We also want to know if you're having constantly high blood sugars. It will be a good motivation for you. Usually that's what I've seen that like exercise video diet.
+nurse: That okay. I had that muffin. And now my blood sugar is 200 or 250 or whatever. So that means that I probably like these are the things that I routinely eat and I'm seeing the effects of them in my blood on my blood sugar. So
+nurse: Maybe I should like omit it from my diet.
+nurse: So, in the past week, how many days? one many times did you check your blood sugar because you felt unwell? Because I felt unwell? Because you felt off , you take your blood sugar to see if ...
+nurse: None? Alright, so, let's see.
+patient: I usually know when
+patient: Okay, I kind of feel, you know where I have her.
+nurse: Okay, so
+nurse: Your medication I see here that you took ??
+nurse: Statin for high cholesterol, meloxicam for back pain, Albuterol for asthma and Viagra
+nurse: And that's it. Is that all? Okay. So and your meloxicam is also prescription or do you get a prescription? So 4 prescription meds? That's it.
+nurse: Any changes in dose in any of them? Okay, so let's talk about your health care outside of our study. In the past 3 months. How many times did you, or a family member on your behalf, called a healthcare provider with a medical concern?
+patient: an injury in my exhibit
+nurse: So did you call for that like call the doctor for the that injury? or did you just? I went to the ER. You went to the ER. So, how many times did you have an office visit? So, I saw that you saw your primary care recently? and you had a mental health appointment as well?
+nurse: so, just that two, so just a to any dentist appointment?
+patient: Well, I went to the travel planning to get my shots.
+patient: Oh, okay. So 3.
+nurse: Not counting the ER visits. The office visits 3. And how many times did you use a lock an online service when the emailing or texting service to contact the private medical provider?
+nurse: None. Okay.
+nurse: Have you been admitted to a nursing home or rehab facility for any reason now and in the past 3 months, did you miss any days from work or household activities due to an injury?
+nurse: For how many days? One for an ankle injury
+patient: And they put me on light duty and let me stay up.
+nurse: Alright, okay.
+nurse: So you don't take any medications for blood pressure, correct? You take aspirin Restylane for the pit bull ring any weight-loss medication?
+nurse: How about aspirin? You don't take aspirin. Okay, so.
+nurse: For aspirin. Of course, I'm not a medical provider I cannot give you medical advice. So did you did you have side effects?
+patient: I get tired of taking the big water pills.
+nurse: He'll take care. So I do understand that I can get them but turn into a pain, but you should also think about the benefits. As for the Mayo diabetes over the age of 45.
+nurse: So all of that are all those are risks factors.
+nurse: Test for having heart complications. So because of that it will be again extra important for you to like aspirin is cheap very accessible.
+nurse: Over-the-counter, you don't even need a prescription. Again, I cannot give you medical advice. Just something to talk about when you go to your primary care. Do you take any non any diabetes medications outside of our study? Come on in.
+nurse: Any hormonal treatment?
+nurse: Are any atypical antipsychotic? Do you take any vitamin B12 supplement?
+patient: A multivitamin is probably it. Okay, but not vitamin D
+nurse: on itself. No
+nurse: Okay, In the past three months have you take any corticoid steroids. Just to add to this. This is Zach. He's one of the technicians at ctrc just walking in to do his a 90-minute blood draw.
+nurse: He probably was a what is she talking about?
+nurse: Okay, so no steroids in the past 3 months like corticosteroids like prednisone dexamethasone.
+nurse: cortisol, any kind. And do take? you said, you don't take depression medications or anxiety. Alright.
+nurse: Thank you very much.
+nurse: Okay.
+nurse: I will document that adverse event of ankle trauma. Other than that.
+nurse: No major changes in your health. Any changes in your medical history? You said no changes in your medications? Correct? Everything's the same.
+nurse: I'm just making note of this ankle injury to later complete your chart
+nurse: Alright, so let's get to the fun part.
+nurse: About your diet. Um, walking to a typical day, diet wise.
+nurse: on the last day?
+nurse: Or yesterday if that's easier.
+patient: Yeah, daily, my diet has been bad my day. My diet wasn't that great since I came back from Africa, so
+patient: On thanksgiving and holidays. So typically, when I get up in the morning I would have coffee and an egg sandwich from Dunkin Donuts
+patient: That's it. Dunkin Donut coffee and egg sandwich
+nurse: Is that just a egg or egg with cheese and bacon? Yeah, bacon and cheese, bagel.
+patient: Okay.
+patient: Like yesterday I just nibble on peanuts
+patient: Fruit, apple, orange, yogurt
+patient: I go in at 6. What's I start eating that about 9?
+patient: 9-10 so, so I'm late. The breakfast is served about about 5:30. So, early in the morning
+patient: Today for lunch I went to Chipotle. Okay. An order stake bowl?
+patient: That's kind of the way I eat right now. So as you probably figure it now yourself, that's a lot of carbs, a lot of calories
+nurse: aerogel
+nurse: All right.
+nurse: Okay.
+nurse: Alright, so
+nurse: eating out
+nurse: As easy as it is, it can be very of course is nothing new to you, but it can be very hard core like calorie dance.
+nurse: Like something that you could like that egg sandwich if you used and I made it at home would be like you could use like a whole wheat toast.
+nurse: eggs, and then just a
+nurse: moderate amount of cheese or controlled amount of cheese
+nurse: When you eat out there's a lot of feathers. There's a lot of hidden ingredients that you don't know and a lot of sodium.
+nurse: So one thing that sometimes gets missed is the sodium, bad sugar. In our belly, sugar and sodium get absorbed together.
+nurse: So the more sodium you have the more of that sugar you're absorbing into your blood stream and you're putting more pressure on your kidneys when you have more sodium in your diet. So, all of that together again Chipotle again.
+nurse: Brown rice of course has a better option compared white rice because is less refined and everything and then deli sandwich and a lot of the process meet a lot of sodium in it and a lot of carbs.
+nurse: So what I want like , which of these is easier for you to target first?
+patient: the food or the food intake?
+nurse: So, which of those um diet. So breakfast is easiest. So, can you prepare breakfast a home. Yes, breakfast, the rest of the day is more difficult. Right now right now is really bad time.
+patient: is just timing , cuz, because and I'm in graduate school.
+patient: Andrew told me. So I'm in graduate school and I'm almost finished. I have 5 weeks left, so eveything is comming to a end
+patient: you know, I mean I don't have a lot of sleep. I don't have a lot of time, you know what I mean
+patient: It one of those days, when I have to eat, whenever I can. You know, we meet at the school a lot. Sometimes, we just are, ordering food. Dinner, I mean. Is just. I think it would be different, once I. And then is how it's been, as we're getting closer to the end. This got really hectic.
+nurse: So I think I did all of that said I do understand that like the crazy lifestyle. That, I totally get it like last week we were moving. Of course we cook, because always cook but of course I coudn't so, we had the
+nurse: unhealthiest week of our life, my husband and I. Really, constantly eating out, and financially, is not good for your pocket. So what I can recommend
+nurse: Is meal prep.
+nurse: Like as much as you can. Look, sometimes it's especially if you start from, at the beginning is not easy to do.
+nurse: all meals for every single day of you worthy week, like a you know, Monday through Friday on a Sunday, but as much as you can if you can't do it like like a meal prep of
+nurse: Simple veggies, green beans, broccoli anything that you like or a salad on the side and then a lean protein.
+nurse: chicken, like grilling chicken is not harm, or salmon or any type of protein. Um, and then look for a good non refined type of car, like a small portion of a less refined carb like white rice.
+nurse: or sweet potatoes, you know something like that and not like try to keep it at
+nurse: half of each should be veggies 1/4 the protein and that 1/4 the carb, as much as you can, I think it can help you a lot for even look starting one of these meals. Even if you can't do it every single... is it's hard to
+nurse: Just do a dramatic change for all the. But look, if you can start from just for your lunch. Do a meal prep
+nurse: and then for breakfast
+nurse: I don't know if you have time in the morning, just so you know.
+patient: Yeah, I do, I did. Yeah, so is just. I think is more like a discipline that you need to establish and mantain. So,
+nurse: Let's start with that, just meal prep for one meal of your day. And then as you know later when you have more time, just try to expand it. Yours snacks are awesome.
+nurse: I want to congratulate you for that because, you like. You know, in a stressful situation, you know, like instead of going for candy or anything if you snack on fruit or nuts especially if there are like
+nurse: Good types of fruit like apples, pears those that have more fiber less sugar like berries. Those are better compared to like pineapples or Melon does have less fiber more sugar.
+nurse: And then yogurt good source of protei. Um peanuts overall nuts, if you keep a portion control for yourself, then yeah also source of not especially is they are unsalted, and then again if they are unsalted you get less sodium and less pressure on your kidneys.
+nurse: Okay. So again.
+nurse: Having breakfast at home, meal prep, and then we will check back in like I do next visit. Alrights, how about exercise?
+nurse: I know it has been a bit bussy eat.
+patient: Okay, we got a new dog now. so that's right. So that's a good time to get exercise. Yah, but we get out just a couple of times, my schedule is all over the place, because I have to go to school.
+patient: We go at night, just take her out for a walk , that gets us out . Okay, one thing that
+nurse: Like at work you can do, not easily not, necessarily a workout but, taking the stairs instead of the elevator or just every hour like take a very short walk, like a few minutes.
+patient: I knew that but I got bad because my ankle. That's my limitation.
+nurse: Okay, so you are that ankle kind of limits.
+patient: Is a constant. I have arthritis in my right one arm from an injury. So I have pains in there and in my left one that Achilles so when I walk too much. That part limits a lot.
+nurse: So we talked about importance of blood sugar control.
+nurse: And tell me I when you check your blood sugar.
+nurse: What is the usual range that you see, you check at first
+patient: Thing in the morning. I have you know, and it's always been like kind of what it was today. You know what you want 50. It as been getting up there. I think a lot of it has to do with stress and high blood sugar. Of course is has it. I've struggling with
+patient: get it back under. When I first started with the insulin check if I was getting it under.
+patient: 100
+patient: That's good, and then my insuline was only 24, and then, my stress levels picked up. I can't even, though I'm still doing the same stuff, I can't
+patient: I can get it back out. So I just I mean, I know that that that
+patient: the right dose, I've been averaging 130, 125 in the morning. But I know , like I said, if I'm under a lot of stress my number
+nurse: Stress because for so many reasons, can affect your blood sugar and you have already already like figure that out.
+nurse: First of all the hormones that we have in our body . Flight and fight hormones by nature, they don't understand why we are stressed all they know is that, you are just, in danger? So it will increase our blood sugar.
+nurse: and so that we are ready for a fight physically and also sometimes
+nurse: All the people stress eat so when they are stressed they eat more or they can't they , are less mindful or what they are eating.
+nurse: I think just as much as you can I know but your ankle pain, but even like, like walking can also like just help you know, clear your head of bed after a long day as much as you can.
+patient: I need a lot. Like I said, I think a lot of that to change.
+nurse: Hopefully, hopefully fingers crossed. I heard, so you said that you were making an appointment. So do you?
+nurse: Get your eyes checked regularly. How about dental care?
+patient: No, I'm pretty good at taking care of my theeth. I don't have any cavities, the last time I went
+patient: was maybe two years ago to the dentist and it was the first time in almost 20 years in it. So I go there
+patient: you know, teeth cleaning, it wasn't an issue.
+nurse: And how about foot care? Do you check your feet at home?
+patient: I do it everyday. Okay, wonderful.
+nurse: Have you had any issues like?
+nurse: Ulcers or everything like that. Everyday wonderful.
+nurse: All right. I think we're all good here. Other than your medications. Do you need any like pen needles or testing supplies, lancets testing strips, alcohol pads?
+patient: You are all set of those. I know, I have one box of the pen needles. Ok, So, I'm going thorugh that so I don't think I need more.
+patient: Maybe two boxes the last time, they were different sizes, so maybe two boxes
+nurse: There's a hundred in each of them. So probably will give you another one so that you don't run out by the time its time for the next visit and how abo ut
+patient: I think I'm good. You good. Okay.
+nurse: Why don't you take your shoes and socks off help over here? I'm going to put on go out and do a quick foot exam and then you all stay.
+nurse: if I forget, for your annual visit you get a gift
+nurse: oh. Yeah.
+nurse: We have a couple options when you can choose from/ We have an umbrella, a salad shaker, a water .. it's lik, it's more like a water bottle, but just lets see, 15 more minutes.
+nurse: A cooler bag a pedometer and unfortunately we are out of
+patient: flashlights, so I cannot offer that
+patient: Look for it like coler bag, like a lunch box, basically. So, that one? Yeah
+nurse: Can I do the foot and exam I take you back to that infusion room where you were before and we can continue working on the
+nurse: questionnaire and
+patient: I'm pretty self-concious about my foot so
+nurse: Alright, yeah, everything looks good. But you have a bit of a dry skin. Nothing surprising in Colorado. I know, In Colorado, its like an art, I think
+nurse: Keep your skin hydrated, but I just put on because dry skin will make you more prone to you know, cutter injuries or abbrasion. So just putting on Vaseline, by itself is a good idea, with socks on the night before you go to bed.
+nurse: Okay, so that's that I'll take your ankle reflexes relax your legs, but then go we can just look at the beautiful. Is it still snowing? It kind of it
+nurse: So that's one. You know what it is. I'm going to vibrate it put it on your big toe. Let me know if you feel the vibration. If you do let me know when it stops. Okay, close your eyes.
+nurse: Thank you for this one. Good?
+nurse: Okay, this one reviews your left leg. Okay, so but this one I'm going to poke your big toe. I'm going to do it multiple times. Let me know each time you feeling it, okay? Close your eyes, lets start with your big toe again.
+nurse: Very well. You are done and all good.
+nurse: Put your schoes back on and
+nurse: go get your medications, your gift, the copies of the consent forms you signed and
+nurse: and that should be it, unless you have any questions for me. No, okay.
+nurse: All set for for those. All right. Let me take a quick look.
+nurse: Ashley
+nurse: Thank you so much. I brought your medication, the Lantus.
+nurse: Pen needles, cooler bag, I also put some informational handout diet and everything. Today is Thursday supposed to call you on Monday with the lab results and then gi ve us a call if you have any questions or anything. Alright?
+nurse: Thank you so much, it was nice to see you. So, as I said your score positive on that question, that was for like depression and mood.
+nurse: your score was at 11
+nurse: Usualy stay above 10 and positive last time you get to think.
+nurse: last time, when you have your baseline visit and it was the same score so we are not that concerned like an emergency, you know see a mental health provider. Just wanted to let
+patient: Follow up at them. I'm not worried about that at this point. But if you ever feel about harming yourself or others just seek immediate care. Just wanted to update you on that. Everything else looks good. Thank you so much.
+nurse: Thank you for your time today. And I said I will call you with the lab results. All right?
+nurse: This visit is complete the current and the current local time is 12:30 in the afternoon.

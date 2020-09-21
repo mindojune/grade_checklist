@@ -1,0 +1,131 @@
+nurse: So now you're going to start today's grade study visit today is December 5th, 2017 and the current local time is. He's
+nurse: 1:44. Thank you.
+nurse: In the morning, my name is Upton Kenny and I am the research coordinator at the grade study site 240. I am with the greatest The Departed spend with the ID number to 240013 and she has given permission to have this visit.
+nurse: There is no other person coming with this part spent in this Clinic room. This is a annual visit and the visit number is
+nurse: 12. Okay, so let's start with the rest of the question with
+nurse: Miss the first part of the question has some technical difficulties for questions. So we're gonna go to the rest of the questions. So
+nurse: Would you tell me if you have any change in yourself in health since you last visited us.
+nurse: The reason that you have to go to doctor, how about you changing your medication?
+nurse: So no new medication, no new diagnoses. How about any ER visits since your last visit with us
+nurse: Have you had motor vehicle accidents in which you are the driver? Okay, any weight lose procedure, anything like that?
+nurse: Any amputation or?
+nurse: How about any eye doctor
+nurse: Have you been diagnosed with depression since you last visited?
+nurse: Any new treatment for depression, could you tell me how often you drink alcohol? And are you a former smoker?
+nurse: And do you sometimes forget to take your Metformin? No, never?
+nurse: Oh, okay.
+nurse: Have you ever cut back on your metformin without talking to your doctor?
+nurse: If you travel, do you sometimes forget to take your metformin with you? Did you take your metformin yesterday?
+nurse: Do you ever feel hasseled to take your medication? How often do you forget to take your metformin?
+nurse: I really don't I missing I don't forget.
+nurse: Really never, so in the past two weeks you forgot.
+nurse: one time Boston last week?
+patient: Black Friday
+nurse: your other medication is Januvia
+nurse: Have you ever cut back on your Januvia without talking to a doctor? Did you take your Junovia yesterday?
+nurse: If you feel your symptoms aren't under control, do you stop taking your Januvia? No? Okay.
+nurse: Okay, so how often do you forget to take your Januvia?
+nurse: And you forgot to take your Januvia once the past 2 weeks?
+nurse: what dose of Januvia are you're taking?
+patient: I take 1 tablet every morning.
+nurse: I'm taking any penicillin. So I in the past month. Did you attend to check your blood glucose?
+patient: Yes.
+nurse: How many days per week do you check? One?
+nurse: Yes, okay in the past week other than your regular checking. Have you ever check your blood glucose because you thought maybe your blood glucose is too high or too low.
+nurse: Okay, so other than your diabetic medication and any over-the-counter medication like vitamins how many other medication are you taking?
+nurse: How about aspirin?
+nurse: B12? Okay
+patient: And I take Calcium. But that's it I think.
+nurse: So in the past 2 months, how many times did you or any of your family members call your provider?
+nurse: cause of health concerns.
+nurse: How about any phone call and e-mail things like that?
+nurse: You contacted your provider because of any health concern, you know. Any office visits with your provider?
+patient: Well, yeah, blood drawn but not an office visit no.
+nurse: So in past few months. Have you been admitted to nursing home and rehabilitation center?
+nurse: Did you miss work or I know you're retired or any household acitivity because of illness.
+nurse: So what's the name of the blood pressure medication that you're taking do you remember?
+patient: Starts with an L. Sorry.
+nurse: Are you taking Losartan?
+nurse: Are you taking a Statin for a cruise or as well?
+nurse: Okay, any glucose lowering medication other than the study medication? How about any hormonal treatment?
+nurse: Any a typical antipsychotic like Clozapine. And you're taking vitamin B12. Have you taken any steroids anything like that?
+nurse: Are you taking any anxiety medication and depression medication?
+nurse: It's so could you tell me what kind of supplies do you need for your next three months?
+patient: Okay, so I do have one unopened bottle of Januvia.
+nurse: We'll give you the med. Do you use our glocometer or yours?
+nurse: Do you need alcohol pads anything like that or just a medication. Okay.
+nurse: so
+nurse: Could you tell me what's the average reading that you see?
+patient: I'm in the 130's, average would be 135 we'll go with that.
+nurse: And what was the lowest that you see in the past?
+patient: 28
+nurse: So is this 130 is compared to last two months? Is it going down going up? Is it the same? It's the same.
+nurse: So do you think is there any reason that your blood glucose is not coming down?
+patient: I'm not getting any exercise.
+patient: I feel like I haven't been eating very well either so you know, what time of year?
+nurse: So you think you're eating more in portion or you no more sugar is in sugar?
+nurse: Okay.
+nurse: Could you tell me what do you usually eat for breakfast lunch?
+patient: Breakfast I should just have toast..
+nurse: And is this.
+nurse: Whole grain?
+nurse: Okay, that's good. Thank you.
+patient: Oh, I put butter and I just put butter on.
+nurse: And that's it. Yeah, okay.
+patient: What does I have a smoothie? I like to do yogurt with fresh fruit.
+nurse: yogurt with fruit
+nurse: And how about your lunch?
+patient: Burrito, okay.
+nurse: Your lunch.
+nurse: Said something like burritos.
+patient: Dinner we usually have some kind of a meat? It's a smaller portion, but we always include some kind of protein or two.
+patient: lettuce wraps last night any veggies and greens with my lunch
+nurse: Okay on your exercise. What's next?
+patient: Popcorn.
+nurse: So you told me that you're eating more sugar.
+nurse: Nike sweats
+nurse: Candy cookie. I said candy last night cookies. Yes.
+patient: Okay, so
+nurse: How many do you eat if you're into by put his things like that?
+nurse: Okay, so
+nurse: Actually Lord, I want to see if you if you want to take any sugar sugar think like that. You can take them you don't leave me.
+nurse: But you can do no limit your portions or give me the amount of you taking and we suggest if you want something sweet and something healthy like fruits like this movie that you're doing. I think that's a good idea.
+nurse: Yeah, and for your exercise, do I need anything?
+patient: Okay.
+nurse: Do you have any problem physically or you lack motivation ?
+nurse: So you can always start small.
+nurse: One block for a week and then increase so we suggest that you know at least 30 minutes a day for at least three to five times a day. So even
+nurse: A little amount of exercise can help a lot so I know it.
+nurse: Pause at the beginning, but when you get in the mood you you can do that.
+nurse: Do you have anyone that you can go exercise with them any friends that they have plans like that? I think that's all you need to know teammates.
+nurse: think that's it.
+nurse: Help me just need to do one quick foo t exam with exam and I think we all set. I'm going to get your study pills.
+nurse: And the nursing. Could you take off your shoes and socks?
+patient: That's an exciting part of your job?
+patient: numbness tingling in fingers?
+nurse: I get really dry. So.
+nurse: First thing going to check your reflexes? So just relax your feet.
+nurse: the other one
+nurse: That makes a difference with my feet.
+nurse: Yeah, it's kind of Disguise your mind.
+nurse: Okay, so the next test will be I going to change your sense on your door. I going to check your you know, what you're told me this microfilaments in X and whenever you're feeling just let me know. Okay?
+nurse: Let you know I was going to say yes, okay and close your eyes.
+patient: Yes, yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes. Yes.
+nurse: the pressure
+nurse: Vibration, can you feel the way I feel the vibration.
+patient: stop
+nurse: Put your shoes and socks back on.
+nurse: So because this is your annual visit, we have some gift that we give our participants. So we have lunch boxes. We have flashlights have
+nurse: An umbrella and we have a solid container. Which one do you think?
+nurse: The flighlight? Okay
+patient: Okay.
+nurse: let's go back today infusion room and that's where we'll continue your
+nurse: Yes.
+patient: Okay.
+nurse: Okay, great.
+nurse: Exercise and there's your flashlight right there.
+nurse: So you are free to go after your last production in 5 minutes and will call you in several days with your result.
+nurse: So other than that, thank you for coming in.
+nurse: Thank you. Have a good day.
+patient: Thank you.
+nurse: Okay the visit is complete. The current local time is 12:32 in the afternoon.
