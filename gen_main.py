@@ -25,6 +25,8 @@ import re
 processor = spacy.load('en_core_web_sm')
 global generic
 global brand
+global drug
+global nondrug
 
 #model_name = "models/" #textattack/bert-base-uncased-QQP"
 #model_name = "models/bert-base-uncased.tar.gz" #textattack/bert-base-uncased-QQP"
@@ -134,41 +136,50 @@ def clean_drugs():
                     generic.append(i)
     return list(set(generic)), list(set(brand))
 generic, brand = clean_drugs()
+drug = generic + brand
 
-def swap_generic(x, *args, **kwargs):
+food = generate_words('I love eating {mask}')
+sport = generate_words("I love playing the physical sport called {mask}")
+sport += generate_words("I love playing the physical exercise called {mask}")
+sport = list(set(sport))
+nondrug = generate_words('The doctor prescribed me {mask} and told me to take it after meals')
+
+nondrug = set(nondrug) - set(generic) - set(brand)
+
+def swap_nondrug(x, *args, **kwargs):
     # Returns empty or a list of strings with profesions changed
-    professions = generic #['doctor', 'nurse', 'engineer', 'lawyer']
+    professions = nondrug #['doctor', 'nurse', 'engineer', 'lawyer']
     ret = []
     for p in professions:
         if re.search(r'\b%s\b' % p, x):
             ret.extend([re.sub(r'\b%s\b' % p, p2, x) for p2 in professions if p != p2])
     return ret
 
-def swap_brand(x, *args, **kwargs):
+def swap_drug(x, *args, **kwargs):
     # Returns empty or a list of strings with profesions changed
-    professions = brand #['doctor', 'nurse', 'engineer', 'lawyer']
+    professions = drug #['doctor', 'nurse', 'engineer', 'lawyer']
     ret = []
     for p in professions:
         if re.search(r'\b%s\b' % p, x):
             ret.extend([re.sub(r'\b%s\b' % p, p2, x) for p2 in professions if p != p2])
     return ret
 
-def swap_g_to_b(x, *args, **kwargs):
+def swap_d_to_n(x, *args, **kwargs):
     # Returns empty or a list of strings with profesions changed
-    professions = generic #['doctor', 'nurse', 'engineer', 'lawyer']
+    professions = drug #['doctor', 'nurse', 'engineer', 'lawyer']
     ret = []
     for p in professions:
         if re.search(r'\b%s\b' % p, x):
-            ret.extend([re.sub(r'\b%s\b' % p, p2, x) for p2 in brand if p != p2])
+            ret.extend([re.sub(r'\b%s\b' % p, p2, x) for p2 in nondrug if p != p2])
     return ret
 
-def swap_b_to_g(x, *args, **kwargs):
+def swap_n_to_d(x, *args, **kwargs):
     # Returns empty or a list of strings with profesions changed
-    professions = brand #['doctor', 'nurse', 'engineer', 'lawyer']
+    professions = nondrug #['doctor', 'nurse', 'engineer', 'lawyer']
     ret = []
     for p in professions:
         if re.search(r'\b%s\b' % p, x):
-            ret.extend([re.sub(r'\b%s\b' % p, p2, x) for p2 in generic if p != p2])
+            ret.extend([re.sub(r'\b%s\b' % p, p2, x) for p2 in drug if p != p2])
     return ret
 
 
@@ -192,7 +203,7 @@ def main():
     #print(inputs)
     #print(bert(**inputs))
     
-    print(swap_b_to_g("Amaryl is bad for cloud"))
+    print(swap_d_to_n("Amaryl is bad for cloud"))
 
     
     
@@ -200,18 +211,11 @@ def main():
     #print(brand)
     #return
 
-    food = generate_words('I love eating {mask}')
-    sport = generate_words("I love playing the physical sport called {mask}")
-    sport += generate_words("I love playing the physical exercise called {mask}")
-    sport = list(set(sport))
-    drug = generate_words('The doctor prescribed me {mask} and told me to take it after meals')
-
-    non_drug = set(drug) - set(generic) - set(brand)
     print(non_drug)
 
     print(len(food))
     print(len(sport))
-    print(len(non_drug))
+    print(len(nondrug))
 
 
     print(generate_sents('I had {word} last night', food))
