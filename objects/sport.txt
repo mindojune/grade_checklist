@@ -27,7 +27,6 @@ surfing
 Athletics
 kicking
 throwing
-chess
 PE
 combat
 Cricket
@@ -63,7 +62,6 @@ running
 exercise
 cycling
 Spin
-simulation
 UFC
 swimming
 breathing
@@ -84,5 +82,4 @@ golf
 soccer
 Ball
 juggling
-drums
 tag

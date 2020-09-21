@@ -21,6 +21,7 @@ from collections import Counter
 import argparse
 import random
 import re
+import os
 
 codeDictionary = {"D":0, "M":1, "S":2, "H":3, "F":4, "O":5, "E":6, "NA":7}
 
@@ -32,6 +33,7 @@ global nondrug
 
 #model_name = "models/" #textattack/bert-base-uncased-QQP"
 #model_name = "models/bert-base-uncased.tar.gz" #textattack/bert-base-uncased-QQP"
+
 
 def load_objects():
     paths = ["drug", "nondrug", "food", "sport" ]
@@ -68,6 +70,15 @@ def load_model():
     print(np.random.choice(ret.data, 3))
     """
 
+def filter_data(data, criterion):
+    
+    new_d = []
+    for datum in data:
+        if criterion(datum):
+            new_d.append(datum)
+
+    return new_d
+
 def jsonl_to_list():
     corpus_root = "./jsonl/"
     path = sorted(glob.glob('{}/*.jsonl'.format(corpus_root)))
@@ -85,6 +96,18 @@ def jsonl_to_list():
     
     return data
 
+def random_sample(n):
+    data = jsonl_to_list()
+    data = filter_data(data, lambda x: len(x[0]) >= 40 and x[0].strip("Nurse:").strip("Patient:").strip()[0].isupper())
+    
+    rdx = (np.random.choice(len(data),n, replace=False))
+    
+    for idx in rdx:
+        print(data[idx])
+    
+    return
+
+
 
 def write_predictions_to_file():
 
@@ -96,26 +119,6 @@ def make_suite():
     
     # add tests
 
-def filter_data(data, criterion):
-    
-    new_d = []
-    for datum in data:
-        if criterion(datum):
-            new_d.append(datum)
-
-    return new_d
-
-def minor(data):
-    Perturb.strip_punctuation
-    Perturb.punctuation
-    Perturb.add_typos
-    Perturb.contract
-    Perturb.expand_contractions
-    Perturb.contractions
-    Perturb.change_names
-    Perturb.change_location
-    Perturb.change_number
-    return
 
 def taxonomy(data):
     editor.synonyms('My drink is hot.', 'hot')
@@ -231,20 +234,20 @@ def object_test():
     """
 
     editor = Editor()
-    food_ret = editor.template('I enjoy having {food}.', food=food, labels=0, save=True) #, nsamples=100)   
+    food_ret = editor.template('How often do you get {food}?', food=food, labels=0, save=True) #, nsamples=100)   
     mft_food = MFT(food_ret.data, labels=food_ret.labels, name='Object Rec: Food',
            capability='Objects', description='Food')
     
 
-    sport_ret = editor.template('I enjoy doing {sport}.', sport=sport, labels=6, save=True) #, nsamples=100)   
+    sport_ret = editor.template('I have to participate in {sport}?', sport=sport, labels=6, save=True) #, nsamples=100)   
     mft_sport = MFT(sport_ret.data, labels=sport_ret.labels, name='Object Rec: Sport',
            capability='Objects', description='Sport')
 
-    nondrug_ret = editor.template('I enjoy having {nondrug}.', nondrug=nondrug, labels=5) #, save=True) #, nsamples=100)   
+    nondrug_ret = editor.template('How often do you get {nondrug}?', nondrug=nondrug, labels=5) #, save=True) #, nsamples=100)   
     mft_nondrug = MFT(nondrug_ret.data, labels=nondrug_ret.labels, name='Object Rec: Non Drug',
            capability='Objects', description='Non Drug')
 
-    drug_ret = editor.template('I enjoy having {drug}.', drug=drug, labels=1, save=True) #, nsamples=100)   
+    drug_ret = editor.template('How often do you get {drug}?', drug=drug, labels=1, save=True) #, nsamples=100)   
     mft_drug = MFT(drug_ret.data, labels=drug_ret.labels, name='Object Rec: Drug',
            capability='Objects', description='Drug')
     
@@ -296,28 +299,55 @@ def object_test():
 #exit()
 
 def robustness_test():
+    editor = Editor()
+    food_ret = editor.template('How often do you get {food}?', food=food, labels=0, save=True) #, nsamples=100)   
+ 
+    
+    pdata = list(processor.pipe(food_ret.data))
+    perturbed_punct =  Perturb.perturb(pdata, Perturb.punctuation, keep_original=False)
+    perturbed_typo =  Perturb.perturb(food_ret.data, Perturb.add_typos, keep_original=False)
 
-    t = Perturb.perturb(nondrug_ret.data, swap_nondrug)
-    inv_n = INV(**t, name='swap nondrug name in both questions', capability='objects',
-          description='')
+    inv_food_punct = INV(**perturbed_punct, name='Minor Changes: Punctuation', capability='robustness',  description='')
+    inv_food_typo = INV(**perturbed_typo, name='Minor Changes: Typos', capability='robustness',  description='')
+
+    #Perturb.contract
+    #Perturb.expand_contractions
+    #Perturb.contractions
+    #Perturb.change_names
+    #Perturb.change_location
+    #Perturb.change_number
+
+    tests, names =  [inv_food_punct, inv_food_typo], ["inv_food_punct", "inv_food_typo"]
+
+    for test, name in zip(tests, names):
+        test.to_raw_file('./tests/'+name+'.txt')
+    
+    return tests, names
+
+"""
+robustness_test()
+exit()
+
+random_sample(10)
+exit()
+"""
 
 
-
-
-    return
-
-
-def tests_to_jsonl():
+def tests_to_jsonl(names):
 
     #names =  [x.strip(",") for x in "mft_food, mft_sport, mft_nondrug, mft_drug, inv_n, inv_d, dir_nd, dir_dn".split() ]
-    names =  [x.strip(",") for x in "mft_food, mft_sport, mft_nondrug, mft_drug".split() ]
+    #names =  [x.strip(",") for x in "mft_food, mft_sport, mft_nondrug, mft_drug, inv_food_punct, inv_food_typo".split() ]
 
     print(names)
 
     for name in names:
         with open("./tests/"+name+".txt", "r") as fh:
             data = fh.read().splitlines()
-        with jsonlines.open("./tests/"+name+".jsonl", "a") as writer:
+
+        fname = "./tests/"+name+".jsonl"
+        if os.path.isfile(fname):
+            os.remove(fname)
+        with jsonlines.open(fname, "a") as writer:
             for datum in data:
                 entry = {"abstrac_id": 0}
                 entry["sentences"] = [datum]
@@ -332,7 +362,10 @@ def tests_to_jsonl():
 def prediction_to_format():
     
     for file_path in glob.glob('{}/*.json'.format("./tests/")):
-        with open(file_path+".pres", "a") as fp:
+        fname = file_path+".pres"
+        if os.path.isfile(fname):
+            os.remove(fname)
+        with open(fname, "a") as fp:
             with jsonlines.open(file_path) as fh:
                 for line in fh.iter():
                     probs = line["action_probs"][0]
@@ -343,19 +376,28 @@ def prediction_to_format():
 
 
 
-
 def main():
+    pred = True # False
+
     tests, names = object_test()
-    tests_to_jsonl()
-    prediction_to_format()
-    #return
+    rt, rn = robustness_test()
+    tests+=rt
+    names+=rn
+
+    if pred:
+        tests_to_jsonl(names)
     
-    for test, name in zip(tests, names):
+    
+    if pred:
+        prediction_to_format()
         
-        print("\n\nBegin test:", name)
-        test.run_from_file('./tests/'+name+'.jsonl.predictions.json.pres', file_format='softmax', overwrite=True)
-        test.summary()
         
+        for test, name in zip(tests, names):
+            
+            print("\n\nBegin test:", name)
+            test.run_from_file('./tests/'+name+'.jsonl.predictions.json.pres', file_format='softmax', overwrite=True)
+            test.summary()
+            
 
     return
     #bert, tokenizer = load_model()
@@ -381,16 +423,6 @@ def main():
 
     print(generate_sents('I had {word} last night', food))
 
-    return
-
-    data = jsonl_to_list()
-    data = filter_data(data, lambda x: len(x[0]) >= 40 and x[0].strip("Nurse:").strip("Patient:").strip()[0].isupper())
-    
-    rdx = (np.random.choice(len(data),10, replace=False))
-    
-    for idx in rdx:
-        print(data[idx])
-    
     return
 
 
