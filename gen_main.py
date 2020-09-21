@@ -172,6 +172,17 @@ def swap_b_to_g(x, *args, **kwargs):
     return ret
 
 
+def voc_pos_ner_test():
+    editor = Editor()
+    ret = editor.template('This is not {a:pos} {mask}.', pos=pos, labels=0, save=True, nsamples=100)
+    ret += editor.template('This is not {a:neg} {mask}.', neg=neg, labels=1, save=True, nsamples=100)
+    ret.data
+
+    mft_food = MFT(ret.data, labels=ret.labels, name='Simple negation',
+           capability='Negation', description='Very simple negations.')
+    
+    return mft_food, mft_sport, mft_generic, mft_brand, inv_
+
 def main():
 
     
@@ -185,18 +196,22 @@ def main():
 
     
     
-    print(generic)
-    print(brand)
-    return
+    #print(generic)
+    #print(brand)
+    #return
 
     food = generate_words('I love eating {mask}')
     sport = generate_words("I love playing the physical sport called {mask}")
     sport += generate_words("I love playing the physical exercise called {mask}")
     sport = list(set(sport))
     drug = generate_words('The doctor prescribed me {mask} and told me to take it after meals')
+
+    non_drug = set(drug) - set(generic) - set(brand)
+    print(non_drug)
+
     print(len(food))
     print(len(sport))
-    print(len(drug))
+    print(len(non_drug))
 
 
     print(generate_sents('I had {word} last night', food))
