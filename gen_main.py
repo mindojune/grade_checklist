@@ -38,8 +38,8 @@ def load_objects():
     
     objects = []
     for path in paths:
-        with open(path+".txt", "r") as fh:
-            objects.append(fh.readlines())
+        with open("./objects/"+path+".txt", "r") as fh:
+            objects.append(fh.read().splitlines())
 
     return objects
 
@@ -48,7 +48,7 @@ drug = objects[0]
 nondrug = objects[1]
 food = objects[2]
 sport = objects[3]
-
+#print(nondrug)
 
 def load_model():
     model_name = "models/7300" #textattack/bert-base-uncased-QQP"
@@ -142,18 +142,24 @@ def generate_sents(template, words):
 
 def clean_drugs():
     generic, brand = [], []
-    with open("diabetes_drugs.txt", "r") as fh:
+    with open("objects/diabetes_drugs.txt", "r") as fh:
         data = fh.readlines()
         data = [x.strip().split() for x in data]
         
         for datum in data:
             for i in datum:
                 i = i.strip("(").strip(")")
-                if i[0].isupper():
-                    brand.append(i)
-                else:
-                    generic.append(i)
-    return list(set(generic)), list(set(brand))
+                for item in i.split("-"):
+                    generic.append(item.strip(","))
+    return list(set(generic))
+"""
+drug = clean_drugs()
+with open("objects/drug.txt", "w") as fh:
+    for item in drug:
+        fh.writelines(item+"\n")
+exit()
+"""
+
 
 """
 generic, brand = clean_drugs()
@@ -225,7 +231,7 @@ def object_test():
     """
 
     editor = Editor()
-    food_ret = editor.template('I enjoy having {food}.', food=food, labels=4, save=True) #, nsamples=100)   
+    food_ret = editor.template('I enjoy having {food}.', food=food, labels=0, save=True) #, nsamples=100)   
     mft_food = MFT(food_ret.data, labels=food_ret.labels, name='Object Rec: Food',
            capability='Objects', description='Food')
     
@@ -246,76 +252,137 @@ def object_test():
     #print(nondrug_ret.data)
 
 
-    t = Perturb.perturb(nondrug_ret.data, swap_nondrug)
-    inv_n = INV(**t, name='swap nondrug name in both questions', capability='objects',
+    nt = Perturb.perturb(nondrug_ret.data, swap_nondrug)
+    inv_n = INV(**nt, name='swap nondrug name in both questions', capability='objects',
           description='')
+    
+    #print(len(nt.data))
+    #exit()
+    """
+    import numpy as np
+    def pp(inputs):
+        p1 = np.array([0.5 for x in inputs]).reshape(-1, 1)
+        p0 = 1- p1
+        return np.hstack((p0, p1))
+    from checklist.pred_wrapper import PredictorWrapper
+    wrapped = PredictorWrapper.wrap_softmax(pp)
+    inv_n.run(wrapped)
+    """
 
-
-    t = Perturb.perturb(drug_ret.data, swap_drug)
-    inv_d = INV(**t, name='swap drug name in both questions', capability='objects',
+    dt = Perturb.perturb(drug_ret.data, swap_drug)
+    inv_d = INV(**dt, name='swap drug name in both questions', capability='objects',
           description='')
 
     nondrug_monodec = Expect.monotonic(label=5, increasing=False, tolerance=0.1)
     drug_monodec = Expect.monotonic(label=1, increasing=False, tolerance=0.1)
     
-    t = Perturb.perturb(nondrug_ret.data, swap_nd)
-    dir_nd = DIR(**t, expect=nondrug_monodec)
+    ndt = Perturb.perturb(nondrug_ret.data, swap_nd)
+    dir_nd = DIR(**ndt, expect=nondrug_monodec)
 
-    t = Perturb.perturb(drug_ret.data, swap_dn)
-    dir_dn = DIR(**t, expect=drug_monodec)
+    dnt = Perturb.perturb(drug_ret.data, swap_dn)
+    dir_dn = DIR(**dnt, expect=drug_monodec)
 
             # diet    #exercise   # other     # medical  # other # medical, # o -> m, # m->o
-    tests = [ mft_food, mft_sport, mft_nondrug, mft_drug, inv_n, inv_d, dir_nd, dir_dn ]
+    tests = [ mft_food, mft_sport, mft_nondrug, mft_drug] #, inv_n , inv_d, dir_nd, dir_dn ]
+    names =  [x.strip(",") for x in "mft_food, mft_sport, mft_nondrug, mft_drug".split() ] #, inv_n, inv_d, dir_nd, dir_dn".split() ]
     
-    return tests
+    assert(len(tests) == len(names))
+
+    for test, name in zip(tests, names):
+        test.to_raw_file('./tests/'+name+'.txt')
+
+    return tests, names
+
+#exit()
 
 def robustness_test():
-    editor = Editor()
-    food_ret = editor.template('I enjoy having {food}.', food=food, labels=4, save=True) #, nsamples=100)   
-    sport_ret = editor.template('I enjoy doing {sport}.', sport=sport, labels=6, save=True) #, nsamples=100)   
-    nondrug_ret = editor.template('I enjoy having {nondrug}.', nondrug=nondrug, labels=5) #, save=True) #, nsamples=100)   
-    drug_ret = editor.template('I enjoy having {drug}.', drug=drug, labels=1, save=True) #, nsamples=100)   
-
-    fdata = list(processor.pipe(food_ret.data))
-    sdata = list(processor.pipe(sport_ret.data))
-    ndata = list(processor.pipe(nondrug_ret.data))
-    ddata = list(processor.pipe(drug_ret.data))
-    
-    # punctuation
-    ret = Perturb.perturb(pdata, Perturb.punctuation)
 
     t = Perturb.perturb(nondrug_ret.data, swap_nondrug)
     inv_n = INV(**t, name='swap nondrug name in both questions', capability='objects',
           description='')
-    
-    # typo
-    ret = Perturb.perturb(data, Perturb.add_typos, nsamples=4, keep_original=True)
-    ret.data
 
-    # contraction
-    ret = Perturb.perturb(data, Perturb.contractions)
-    ret.data
-    
-    # names, location, number
-    #ret = Perturb.perturb(pdata[2:3], Perturb.change_names, nsamples=999, first_only=True, keep_original=False)
-    #ret.data
+
+
 
     return
 
-#object_test()
-#robustness_test()
-#exit()
+
+def tests_to_jsonl():
+
+    #names =  [x.strip(",") for x in "mft_food, mft_sport, mft_nondrug, mft_drug, inv_n, inv_d, dir_nd, dir_dn".split() ]
+    names =  [x.strip(",") for x in "mft_food, mft_sport, mft_nondrug, mft_drug".split() ]
+
+    print(names)
+
+    for name in names:
+        with open("./tests/"+name+".txt", "r") as fh:
+            data = fh.read().splitlines()
+        with jsonlines.open("./tests/"+name+".jsonl", "a") as writer:
+            for datum in data:
+                entry = {"abstrac_id": 0}
+                entry["sentences"] = [datum]
+                entry["labels"] = [0]
+                entry["confs"] = [0]
+
+                writer.write(entry)
+    
+                
+
+
+def prediction_to_format():
+    
+    for file_path in glob.glob('{}/*.json'.format("./tests/")):
+        with open(file_path+".pres", "a") as fp:
+            with jsonlines.open(file_path) as fh:
+                for line in fh.iter():
+                    probs = line["action_probs"][0]
+                    fp.write(' '.join([str(x) for x in probs]))
+                    fp.write("\n")
+
+#prediction_to_format()
+
+
+
 
 def main():
+    tests, names = object_test()
+    tests_to_jsonl()
+    prediction_to_format()
+    #return
+    
+    for test, name in zip(tests, names):
+        
+        print("\n\nBegin test:", name)
+        test.run_from_file('./tests/'+name+'.jsonl.predictions.json.pres', file_format='softmax', overwrite=True)
+        test.summary()
+        
+
+    return
+    #bert, tokenizer = load_model()
+    #inputs = tokenizer("I am a gold collector", return_tensors="pt")
+    
+    #print(inputs)
+    #print(bert(**inputs))
+    
+    #print(swap_dn("Amaryl is bad for cloud"))
 
     
     
-    print(swap_dn("Amaryl is bad for cloud"))
+    #print(generic)
+    #print(brand)
+    #return
+
+    #print(non_drug)
+
+    #print(len(food))
+    #print(len(sport))
+    #print(len(nondrug))
+
+
     print(generate_sents('I had {word} last night', food))
 
     return
 
-    """
     data = jsonl_to_list()
     data = filter_data(data, lambda x: len(x[0]) >= 40 and x[0].strip("Nurse:").strip("Patient:").strip()[0].isupper())
     
@@ -334,6 +401,6 @@ def main():
     print(negation(data[3:5]))
 
     return
-    """
+
 
 main()
