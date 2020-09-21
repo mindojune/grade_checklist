@@ -22,14 +22,33 @@ import argparse
 import random
 import re
 
+codeDictionary = {"D":0, "M":1, "S":2, "H":3, "F":4, "O":5, "E":6, "NA":7}
+
 processor = spacy.load('en_core_web_sm')
-global generic
-global brand
+#global generic
+#global brand
 global drug
 global nondrug
 
 #model_name = "models/" #textattack/bert-base-uncased-QQP"
 #model_name = "models/bert-base-uncased.tar.gz" #textattack/bert-base-uncased-QQP"
+
+def load_objects():
+    paths = ["drug", "nondrug", "food", "sport" ]
+    
+    objects = []
+    for path in paths:
+        with open(path+".txt", "r") as fh:
+            objects.append(fh.readlines())
+
+    return objects
+
+objects = load_objects()
+drug = objects[0]
+nondrug = objects[1]
+food = objects[2]
+sport = objects[3]
+
 
 def load_model():
     model_name = "models/7300" #textattack/bert-base-uncased-QQP"
@@ -135,6 +154,8 @@ def clean_drugs():
                 else:
                     generic.append(i)
     return list(set(generic)), list(set(brand))
+
+"""
 generic, brand = clean_drugs()
 drug = generic + brand
 
@@ -144,13 +165,28 @@ sport += generate_words("I love playing the physical exercise called {mask}")
 sport = list(set(sport))
 nondrug = generate_words('The doctor prescribed me {mask} and told me to take it after meals')
 
-nondrug = set(nondrug) - set(generic) - set(brand)
+nondrug = list(set(nondrug) - set(generic) - set(brand))
+
+with open("food.txt", "w") as fh:
+    for item in food:
+        fh.writelines(item+"\n")
+with open("sport.txt", "w") as fh:
+    for item in sport:
+        fh.writelines(item+"\n")
+with open("drug.txt", "w") as fh:
+    for item in drug:
+        fh.writelines(item+"\n")
+with open("nondrug.txt", "w") as fh:
+    for item in nondrug:
+        fh.writelines(item+"\n")
+"""
 
 def swap_nondrug(x, *args, **kwargs):
     # Returns empty or a list of strings with profesions changed
     professions = nondrug #['doctor', 'nurse', 'engineer', 'lawyer']
     ret = []
     for p in professions:
+        #print(p, x)
         if re.search(r'\b%s\b' % p, x):
             ret.extend([re.sub(r'\b%s\b' % p, p2, x) for p2 in professions if p != p2])
     return ret
@@ -164,7 +200,7 @@ def swap_drug(x, *args, **kwargs):
             ret.extend([re.sub(r'\b%s\b' % p, p2, x) for p2 in professions if p != p2])
     return ret
 
-def swap_d_to_n(x, *args, **kwargs):
+def swap_dn(x, *args, **kwargs):
     # Returns empty or a list of strings with profesions changed
     professions = drug #['doctor', 'nurse', 'engineer', 'lawyer']
     ret = []
@@ -173,7 +209,7 @@ def swap_d_to_n(x, *args, **kwargs):
             ret.extend([re.sub(r'\b%s\b' % p, p2, x) for p2 in nondrug if p != p2])
     return ret
 
-def swap_n_to_d(x, *args, **kwargs):
+def swap_nd(x, *args, **kwargs):
     # Returns empty or a list of strings with profesions changed
     professions = nondrug #['doctor', 'nurse', 'engineer', 'lawyer']
     ret = []
@@ -183,16 +219,69 @@ def swap_n_to_d(x, *args, **kwargs):
     return ret
 
 
-def voc_pos_ner_test():
-    editor = Editor()
-    ret = editor.template('This is not {a:pos} {mask}.', pos=pos, labels=0, save=True, nsamples=100)
-    ret += editor.template('This is not {a:neg} {mask}.', neg=neg, labels=1, save=True, nsamples=100)
-    ret.data
+def object_test():
+    """
+    codeDictionary = {"D":0, "M":1, "S":2, "H":3, "F":4, "O":5, "E":6, "NA":7}
+    """
 
-    mft_food = MFT(ret.data, labels=ret.labels, name='Simple negation',
-           capability='Negation', description='Very simple negations.')
+    editor = Editor()
+    food_ret = editor.template('I enjoy having {food}.', food=food, labels=4, save=True) #, nsamples=100)   
+    mft_food = MFT(food_ret.data, labels=food_ret.labels, name='Object Rec: Food',
+           capability='Objects', description='Food')
     
-    return mft_food, mft_sport, mft_generic, mft_brand, inv_
+
+    sport_ret = editor.template('I enjoy doing {sport}.', sport=sport, labels=6, save=True) #, nsamples=100)   
+    mft_sport = MFT(sport_ret.data, labels=sport_ret.labels, name='Object Rec: Sport',
+           capability='Objects', description='Sport')
+
+    nondrug_ret = editor.template('I enjoy having {nondrug}.', nondrug=nondrug, labels=5) #, save=True) #, nsamples=100)   
+    mft_nondrug = MFT(nondrug_ret.data, labels=nondrug_ret.labels, name='Object Rec: Non Drug',
+           capability='Objects', description='Non Drug')
+
+    drug_ret = editor.template('I enjoy having {drug}.', drug=drug, labels=1, save=True) #, nsamples=100)   
+    mft_drug = MFT(drug_ret.data, labels=drug_ret.labels, name='Object Rec: Drug',
+           capability='Objects', description='Drug')
+    
+
+    #print(nondrug_ret.data)
+
+
+    t = Perturb.perturb(nondrug_ret.data, swap_nondrug)
+    inv_n = INV(**t, name='swap nondrug name in both questions', capability='objects',
+          description='')
+
+
+    t = Perturb.perturb(drug_ret.data, swap_drug)
+    inv_d = INV(**t, name='swap drug name in both questions', capability='objects',
+          description='')
+
+    nondrug_monodec = Expect.monotonic(label=5, increasing=False, tolerance=0.1)
+    drug_monodec = Expect.monotonic(label=1, increasing=False, tolerance=0.1)
+    
+    t = Perturb.perturb(nondrug_ret.data, swap_nd)
+    dir_nd = DIR(**t, expect=nondrug_monodec)
+
+    t = Perturb.perturb(drug_ret.data, swap_dn)
+    dir_dn = DIR(**t, expect=drug_monodec)
+
+            # diet    #exercise   # other     # medical  # other # medical, # o -> m, # m->o
+    tests = [ mft_food, mft_sport, mft_nondrug, mft_drug, inv_n, inv_d, dir_nd, dir_dn ]
+    
+    return tests
+
+def robustness_test():
+
+    t = Perturb.perturb(nondrug_ret.data, swap_nondrug)
+    inv_n = INV(**t, name='swap nondrug name in both questions', capability='objects',
+          description='')
+
+
+
+
+    return
+
+object_test()
+exit()
 
 def main():
 
@@ -211,11 +300,11 @@ def main():
     #print(brand)
     #return
 
-    print(non_drug)
+    #print(non_drug)
 
-    print(len(food))
-    print(len(sport))
-    print(len(nondrug))
+    #print(len(food))
+    #print(len(sport))
+    #print(len(nondrug))
 
 
     print(generate_sents('I had {word} last night', food))
