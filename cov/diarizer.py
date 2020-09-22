@@ -2,7 +2,7 @@ import json
 import glob
 from collections import Counter
 
-corpus_root = "./transcribed/DWS_2_19.12-20.01/"
+corpus_root = "./google/"
 for file_path in glob.glob('{}/*.json'.format(corpus_root)):
     #print(file_path)
     #continue

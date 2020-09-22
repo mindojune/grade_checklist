@@ -1,109 +1,100 @@
-I enjoy having calcium.
-I enjoy having lithium.
-I enjoy having mustard.
-I enjoy having vodka.
-I enjoy having opioids.
-I enjoy having whiskey.
-I enjoy having sweets.
-I enjoy having morphine.
-I enjoy having antibiotics.
-I enjoy having opium.
-I enjoy having methamphetamine.
-I enjoy having LSD.
-I enjoy having contraception.
-I enjoy having powder.
-I enjoy having more.
-I enjoy having butter.
-I enjoy having coffee.
-I enjoy having saline.
-I enjoy having tobacco.
-I enjoy having herbs.
-I enjoy having fluoride.
-I enjoy having placebo.
-I enjoy having another.
-I enjoy having oxygen.
-I enjoy having antidepressant.
-I enjoy having medicine.
-I enjoy having medicines.
-I enjoy having mushrooms.
-I enjoy having honey.
-I enjoy having vitamins.
-I enjoy having tea.
-I enjoy having nothing.
-I enjoy having steroid.
-I enjoy having acupuncture.
-I enjoy having formula.
-I enjoy having steroids.
-I enjoy having sleep.
-I enjoy having charcoal.
-I enjoy having antibiotic.
-I enjoy having soup.
-I enjoy having milk.
-I enjoy having ginger.
-I enjoy having tablets.
-I enjoy having soda.
-I enjoy having zinc.
-I enjoy having Sprite.
-I enjoy having cheese.
-I enjoy having it.
-I enjoy having creatine.
-I enjoy having sodium.
-I enjoy having fentanyl.
-I enjoy having Ensure.
-I enjoy having acid.
-I enjoy having glucose.
-I enjoy having spinach.
-I enjoy having tablet.
-I enjoy having potassium.
-I enjoy having chemotherapy.
-I enjoy having sugar.
-I enjoy having something.
-I enjoy having narcotics.
-I enjoy having ice.
-I enjoy having malaria.
-I enjoy having testosterone.
-I enjoy having pills.
-I enjoy having chocolate.
-I enjoy having magnesium.
-I enjoy having rest.
-I enjoy having iodine.
-I enjoy having cholesterol.
-I enjoy having juice.
-I enjoy having water.
-I enjoy having poison.
-I enjoy having lax.
-I enjoy having nicotine.
-I enjoy having soap.
-I enjoy having wine.
-I enjoy having rice.
-I enjoy having aspirin.
-I enjoy having lime.
-I enjoy having that.
-I enjoy having heroin.
-I enjoy having syrup.
-I enjoy having cream.
-I enjoy having marijuana.
-I enjoy having liquid.
-I enjoy having oil.
-I enjoy having blood.
-I enjoy having Coke.
-I enjoy having garlic.
-I enjoy having antidote.
-I enjoy having this.
-I enjoy having cocaine.
-I enjoy having antidepressants.
-I enjoy having medication.
-I enjoy having caffeine.
-I enjoy having some.
-I enjoy having food.
-I enjoy having oral.
-I enjoy having one.
-I enjoy having drugs.
-I enjoy having cannabis.
-I enjoy having iron.
-I enjoy having vinegar.
-I enjoy having arsenic.
-I enjoy having salt.
-I enjoy having yogurt.
-I enjoy having THC.
-I enjoy having alcohol.
+How often do you take calcium?
+How often do you take lithium?
+How often do you take opioids?
+How often do you take morphine?
+How often do you take antibiotics?
+How often do you take opium?
+How often do you take methamphetamine?
+How often do you take LSD?
+How often do you take contraception?
+How often do you take saline?
+How often do you take fluoride?
+How often do you take placebo?
+How often do you take antidepressant?
+How often do you take medicine?
+How often do you take medicines?
+How often do you take vitamins?
+How often do you take steroid?
+How often do you take acupuncture?
+How often do you take steroids?
+How often do you take antibiotic?
+How often do you take zinc?
+How often do you take creatine?
+How often do you take sodium?
+How often do you take fentanyl?
+How often do you take Ensure?
+How often do you take glucose?
+How often do you take potassium?
+How often do you take chemotherapy?
+How often do you take narcotics?
+How often do you take malaria?
+How often do you take testosterone?
+How often do you take magnesium?
+How often do you take iodine?
+How often do you take cholesterol?
+How often do you take nicotine?
+How often do you take aspirin?
+How often do you take heroin?
+How often do you take syrup?
+How often do you take marijuana?
+How often do you take antidote?
+How often do you take cocaine?
+How often do you take antidepressants?
+How often do you take medication?
+How often do you take drugs?
+How often do you take cannabis?
+How often do you take iron?
+How often do you take vinegar?
+How often do you take arsenic?
+How often do you take salt?
+How often do you take THC?
+Have you taken calcium for the last five months?
+Have you taken lithium for the last five months?
+Have you taken opioids for the last five months?
+Have you taken morphine for the last five months?
+Have you taken antibiotics for the last five months?
+Have you taken opium for the last five months?
+Have you taken methamphetamine for the last five months?
+Have you taken LSD for the last five months?
+Have you taken contraception for the last five months?
+Have you taken saline for the last five months?
+Have you taken fluoride for the last five months?
+Have you taken placebo for the last five months?
+Have you taken antidepressant for the last five months?
+Have you taken medicine for the last five months?
+Have you taken medicines for the last five months?
+Have you taken vitamins for the last five months?
+Have you taken steroid for the last five months?
+Have you taken acupuncture for the last five months?
+Have you taken steroids for the last five months?
+Have you taken antibiotic for the last five months?
+Have you taken zinc for the last five months?
+Have you taken creatine for the last five months?
+Have you taken sodium for the last five months?
+Have you taken fentanyl for the last five months?
+Have you taken Ensure for the last five months?
+Have you taken glucose for the last five months?
+Have you taken potassium for the last five months?
+Have you taken chemotherapy for the last five months?
+Have you taken narcotics for the last five months?
+Have you taken malaria for the last five months?
+Have you taken testosterone for the last five months?
+Have you taken magnesium for the last five months?
+Have you taken iodine for the last five months?
+Have you taken cholesterol for the last five months?
+Have you taken nicotine for the last five months?
+Have you taken aspirin for the last five months?
+Have you taken heroin for the last five months?
+Have you taken syrup for the last five months?
+Have you taken marijuana for the last five months?
+Have you taken antidote for the last five months?
+Have you taken cocaine for the last five months?
+Have you taken antidepressants for the last five months?
+Have you taken medication for the last five months?
+Have you taken drugs for the last five months?
+Have you taken cannabis for the last five months?
+Have you taken iron for the last five months?
+Have you taken vinegar for the last five months?
+Have you taken arsenic for the last five months?
+Have you taken salt for the last five months?
+Have you taken THC for the last five months?

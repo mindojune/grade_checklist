@@ -1,157 +1,170 @@
-I enjoy doing jumping.
-I enjoy doing Wrestling.
-I enjoy doing cricket.
-I enjoy doing tap.
-I enjoy doing Tennis.
-I enjoy doing farming.
-I enjoy doing game.
-I enjoy doing physics.
-I enjoy doing fencing.
-I enjoy doing wrestling.
-I enjoy doing Hockey.
-I enjoy doing agility.
-I enjoy doing shooting.
-I enjoy doing gaming.
-I enjoy doing sports.
-I enjoy doing limbo.
-I enjoy doing fitness.
-I enjoy doing eSports.
-I enjoy doing Basketball.
-I enjoy doing health.
-I enjoy doing endurance.
-I enjoy doing jazz.
-I enjoy doing biking.
-I enjoy doing Chess.
-I enjoy doing violin.
-I enjoy doing Starcraft.
-I enjoy doing RL.
-I enjoy doing MMA.
-I enjoy doing love.
-I enjoy doing Mahjong.
-I enjoy doing D.
-I enjoy doing visualization.
-I enjoy doing boxing.
-I enjoy doing Polo.
-I enjoy doing acting.
-I enjoy doing PT.
-I enjoy doing DDR.
-I enjoy doing batting.
-I enjoy doing athletics.
-I enjoy doing esports.
-I enjoy doing StarCraft.
-I enjoy doing bowling.
-I enjoy doing massage.
-I enjoy doing Pokemon.
-I enjoy doing hunting.
-I enjoy doing Boxing.
-I enjoy doing Solitaire.
-I enjoy doing life.
-I enjoy doing music.
-I enjoy doing Mario.
-I enjoy doing ball.
-I enjoy doing Life.
-I enjoy doing acupuncture.
-I enjoy doing guitar.
-I enjoy doing skating.
-I enjoy doing rugby.
-I enjoy doing Overwatch.
-I enjoy doing lifting.
-I enjoy doing ….
-I enjoy doing doubles.
-I enjoy doing surfing.
-I enjoy doing play.
-I enjoy doing Athletics.
-I enjoy doing kicking.
-I enjoy doing throwing.
-I enjoy doing chess.
-I enjoy doing PE.
-I enjoy doing combat.
-I enjoy doing it.
-I enjoy doing Cricket.
-I enjoy doing Magic.
-I enjoy doing football.
-I enjoy doing pool.
-I enjoy doing Ultimate.
-I enjoy doing Soccer.
-I enjoy doing skiing.
-I enjoy doing Wii.
-I enjoy doing piano.
-I enjoy doing coaching.
-I enjoy doing basketball.
-I enjoy doing fishing.
-I enjoy doing ballet.
-I enjoy doing racing.
-I enjoy doing repetition.
-I enjoy doing Dota.
-I enjoy doing squash.
-I enjoy doing comedy.
-I enjoy doing recovery.
-I enjoy doing cheating.
-I enjoy doing chi.
-I enjoy doing rap.
-I enjoy doing Baseball.
-I enjoy doing dance.
-I enjoy doing squats.
-I enjoy doing conditioning.
-I enjoy doing fantasy.
-I enjoy doing games.
-I enjoy doing poker.
-I enjoy doing Zen.
-I enjoy doing derby.
-I enjoy doing hockey.
-I enjoy doing yoga.
-I enjoy doing speed.
-I enjoy doing competition.
-I enjoy doing climbing.
-I enjoy doing playing.
-I enjoy doing sprint.
-I enjoy doing Rugby.
-I enjoy doing riding.
-I enjoy doing swing.
-I enjoy doing counting.
-I enjoy doing dancing.
-I enjoy doing diving.
-I enjoy doing Golf.
-I enjoy doing walking.
-I enjoy doing fighting.
-I enjoy doing X.
-I enjoy doing Smash.
-I enjoy doing darts.
-I enjoy doing balance.
-I enjoy doing running.
-I enjoy doing exercise.
-I enjoy doing mindfulness.
-I enjoy doing cycling.
-I enjoy doing Spin.
-I enjoy doing simulation.
-I enjoy doing UFC.
-I enjoy doing Pokémon.
-I enjoy doing swimming.
-I enjoy doing breathing.
-I enjoy doing hoops.
-I enjoy doing sport.
-I enjoy doing WWE.
-I enjoy doing ,.
-I enjoy doing tennis.
-I enjoy doing Football.
-I enjoy doing Yoga.
-I enjoy doing cardio.
-I enjoy doing baseball.
-I enjoy doing stretching.
-I enjoy doing shuffle.
-I enjoy doing relaxation.
-I enjoy doing resistance.
-I enjoy doing volleyball.
-I enjoy doing grappling.
-I enjoy doing Contra.
-I enjoy doing hiking.
-I enjoy doing bridge.
-I enjoy doing meditation.
-I enjoy doing golf.
-I enjoy doing Go.
-I enjoy doing rehab.
-I enjoy doing soccer.
-I enjoy doing Ball.
-I enjoy doing juggling.
-I enjoy doing drums.
-I enjoy doing tag.
+I have to participate in jumping?
+I have to participate in Wrestling?
+I have to participate in cricket?
+I have to participate in Tennis?
+I have to participate in fencing?
+I have to participate in wrestling?
+I have to participate in Hockey?
+I have to participate in shooting?
+I have to participate in sports?
+I have to participate in limbo?
+I have to participate in fitness?
+I have to participate in Basketball?
+I have to participate in biking?
+I have to participate in MMA?
+I have to participate in boxing?
+I have to participate in Polo?
+I have to participate in PT?
+I have to participate in athletics?
+I have to participate in bowling?
+I have to participate in hunting?
+I have to participate in Boxing?
+I have to participate in ball?
+I have to participate in skating?
+I have to participate in rugby?
+I have to participate in lifting?
+I have to participate in surfing?
+I have to participate in Athletics?
+I have to participate in kicking?
+I have to participate in throwing?
+I have to participate in PE?
+I have to participate in combat?
+I have to participate in Cricket?
+I have to participate in football?
+I have to participate in Ultimate?
+I have to participate in Soccer?
+I have to participate in skiing?
+I have to participate in coaching?
+I have to participate in basketball?
+I have to participate in fishing?
+I have to participate in ballet?
+I have to participate in racing?
+I have to participate in squash?
+I have to participate in Baseball?
+I have to participate in dance?
+I have to participate in squats?
+I have to participate in derby?
+I have to participate in hockey?
+I have to participate in yoga?
+I have to participate in climbing?
+I have to participate in sprint?
+I have to participate in Rugby?
+I have to participate in riding?
+I have to participate in swing?
+I have to participate in dancing?
+I have to participate in diving?
+I have to participate in Golf?
+I have to participate in walking?
+I have to participate in fighting?
+I have to participate in darts?
+I have to participate in balance?
+I have to participate in running?
+I have to participate in exercise?
+I have to participate in cycling?
+I have to participate in Spin?
+I have to participate in UFC?
+I have to participate in swimming?
+I have to participate in breathing?
+I have to participate in hoops?
+I have to participate in sport?
+I have to participate in WWE?
+I have to participate in tennis?
+I have to participate in Football?
+I have to participate in Yoga?
+I have to participate in cardio?
+I have to participate in baseball?
+I have to participate in stretching?
+I have to participate in resistance?
+I have to participate in volleyball?
+I have to participate in grappling?
+I have to participate in hiking?
+I have to participate in golf?
+I have to participate in soccer?
+I have to participate in Ball?
+I have to participate in juggling?
+I have to participate in tag?
+It is good to move your body, like doing jumping.
+It is good to move your body, like doing Wrestling.
+It is good to move your body, like doing cricket.
+It is good to move your body, like doing Tennis.
+It is good to move your body, like doing fencing.
+It is good to move your body, like doing wrestling.
+It is good to move your body, like doing Hockey.
+It is good to move your body, like doing shooting.
+It is good to move your body, like doing sports.
+It is good to move your body, like doing limbo.
+It is good to move your body, like doing fitness.
+It is good to move your body, like doing Basketball.
+It is good to move your body, like doing biking.
+It is good to move your body, like doing MMA.
+It is good to move your body, like doing boxing.
+It is good to move your body, like doing Polo.
+It is good to move your body, like doing PT.
+It is good to move your body, like doing athletics.
+It is good to move your body, like doing bowling.
+It is good to move your body, like doing hunting.
+It is good to move your body, like doing Boxing.
+It is good to move your body, like doing ball.
+It is good to move your body, like doing skating.
+It is good to move your body, like doing rugby.
+It is good to move your body, like doing lifting.
+It is good to move your body, like doing surfing.
+It is good to move your body, like doing Athletics.
+It is good to move your body, like doing kicking.
+It is good to move your body, like doing throwing.
+It is good to move your body, like doing PE.
+It is good to move your body, like doing combat.
+It is good to move your body, like doing Cricket.
+It is good to move your body, like doing football.
+It is good to move your body, like doing Ultimate.
+It is good to move your body, like doing Soccer.
+It is good to move your body, like doing skiing.
+It is good to move your body, like doing coaching.
+It is good to move your body, like doing basketball.
+It is good to move your body, like doing fishing.
+It is good to move your body, like doing ballet.
+It is good to move your body, like doing racing.
+It is good to move your body, like doing squash.
+It is good to move your body, like doing Baseball.
+It is good to move your body, like doing dance.
+It is good to move your body, like doing squats.
+It is good to move your body, like doing derby.
+It is good to move your body, like doing hockey.
+It is good to move your body, like doing yoga.
+It is good to move your body, like doing climbing.
+It is good to move your body, like doing sprint.
+It is good to move your body, like doing Rugby.
+It is good to move your body, like doing riding.
+It is good to move your body, like doing swing.
+It is good to move your body, like doing dancing.
+It is good to move your body, like doing diving.
+It is good to move your body, like doing Golf.
+It is good to move your body, like doing walking.
+It is good to move your body, like doing fighting.
+It is good to move your body, like doing darts.
+It is good to move your body, like doing balance.
+It is good to move your body, like doing running.
+It is good to move your body, like doing exercise.
+It is good to move your body, like doing cycling.
+It is good to move your body, like doing Spin.
+It is good to move your body, like doing UFC.
+It is good to move your body, like doing swimming.
+It is good to move your body, like doing breathing.
+It is good to move your body, like doing hoops.
+It is good to move your body, like doing sport.
+It is good to move your body, like doing WWE.
+It is good to move your body, like doing tennis.
+It is good to move your body, like doing Football.
+It is good to move your body, like doing Yoga.
+It is good to move your body, like doing cardio.
+It is good to move your body, like doing baseball.
+It is good to move your body, like doing stretching.
+It is good to move your body, like doing resistance.
+It is good to move your body, like doing volleyball.
+It is good to move your body, like doing grappling.
+It is good to move your body, like doing hiking.
+It is good to move your body, like doing golf.
+It is good to move your body, like doing soccer.
+It is good to move your body, like doing Ball.
+It is good to move your body, like doing juggling.
+It is good to move your body, like doing tag.

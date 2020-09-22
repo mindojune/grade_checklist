@@ -1,157 +1,170 @@
-{"abstrac_id": 0, "sentences": ["I enjoy doing jumping."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Wrestling."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing cricket."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing tap."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Tennis."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing farming."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing game."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing physics."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing fencing."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing wrestling."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Hockey."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing agility."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing shooting."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing gaming."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing sports."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing limbo."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing fitness."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing eSports."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Basketball."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing health."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing endurance."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing jazz."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing biking."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Chess."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing violin."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Starcraft."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing RL."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing MMA."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing love."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Mahjong."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing D."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing visualization."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing boxing."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Polo."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing acting."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing PT."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing DDR."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing batting."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing athletics."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing esports."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing StarCraft."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing bowling."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing massage."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Pokemon."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing hunting."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Boxing."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Solitaire."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing life."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing music."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Mario."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing ball."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Life."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing acupuncture."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing guitar."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing skating."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing rugby."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Overwatch."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing lifting."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing …."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing doubles."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing surfing."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing play."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Athletics."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing kicking."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing throwing."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing chess."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing PE."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing combat."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing it."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Cricket."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Magic."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing football."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing pool."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Ultimate."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Soccer."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing skiing."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Wii."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing piano."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing coaching."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing basketball."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing fishing."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing ballet."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing racing."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing repetition."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Dota."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing squash."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing comedy."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing recovery."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing cheating."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing chi."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing rap."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Baseball."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing dance."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing squats."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing conditioning."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing fantasy."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing games."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing poker."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Zen."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing derby."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing hockey."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing yoga."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing speed."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing competition."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing climbing."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing playing."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing sprint."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Rugby."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing riding."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing swing."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing counting."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing dancing."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing diving."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Golf."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing walking."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing fighting."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing X."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Smash."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing darts."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing balance."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing running."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing exercise."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing mindfulness."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing cycling."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Spin."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing simulation."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing UFC."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Pokémon."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing swimming."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing breathing."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing hoops."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing sport."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing WWE."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing ,."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing tennis."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Football."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Yoga."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing cardio."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing baseball."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing stretching."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing shuffle."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing relaxation."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing resistance."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing volleyball."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing grappling."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Contra."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing hiking."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing bridge."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing meditation."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing golf."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Go."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing rehab."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing soccer."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing Ball."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing juggling."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing drums."], "labels": [0], "confs": [0]}
-{"abstrac_id": 0, "sentences": ["I enjoy doing tag."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in jumping?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in Wrestling?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in cricket?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in Tennis?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in fencing?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in wrestling?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in Hockey?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in shooting?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in sports?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in limbo?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in fitness?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in Basketball?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in biking?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in MMA?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in boxing?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in Polo?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in PT?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in athletics?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in bowling?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in hunting?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in Boxing?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in ball?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in skating?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in rugby?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in lifting?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in surfing?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in Athletics?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in kicking?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in throwing?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in PE?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in combat?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in Cricket?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in football?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in Ultimate?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in Soccer?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in skiing?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in coaching?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in basketball?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in fishing?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in ballet?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in racing?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in squash?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in Baseball?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in dance?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in squats?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in derby?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in hockey?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in yoga?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in climbing?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in sprint?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in Rugby?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in riding?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in swing?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in dancing?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in diving?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in Golf?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in walking?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in fighting?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in darts?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in balance?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in running?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in exercise?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in cycling?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in Spin?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in UFC?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in swimming?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in breathing?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in hoops?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in sport?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in WWE?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in tennis?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in Football?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in Yoga?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in cardio?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in baseball?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in stretching?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in resistance?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in volleyball?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in grappling?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in hiking?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in golf?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in soccer?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in Ball?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in juggling?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["I have to participate in tag?"], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing jumping."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing Wrestling."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing cricket."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing Tennis."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing fencing."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing wrestling."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing Hockey."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing shooting."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing sports."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing limbo."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing fitness."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing Basketball."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing biking."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing MMA."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing boxing."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing Polo."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing PT."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing athletics."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing bowling."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing hunting."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing Boxing."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing ball."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing skating."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing rugby."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing lifting."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing surfing."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing Athletics."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing kicking."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing throwing."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing PE."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing combat."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing Cricket."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing football."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing Ultimate."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing Soccer."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing skiing."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing coaching."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing basketball."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing fishing."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing ballet."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing racing."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing squash."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing Baseball."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing dance."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing squats."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing derby."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing hockey."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing yoga."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing climbing."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing sprint."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing Rugby."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing riding."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing swing."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing dancing."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing diving."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing Golf."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing walking."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing fighting."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing darts."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing balance."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing running."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing exercise."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing cycling."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing Spin."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing UFC."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing swimming."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing breathing."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing hoops."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing sport."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing WWE."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing tennis."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing Football."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing Yoga."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing cardio."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing baseball."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing stretching."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing resistance."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing volleyball."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing grappling."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing hiking."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing golf."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing soccer."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing Ball."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing juggling."], "labels": [0], "confs": [0]}
+{"abstrac_id": 0, "sentences": ["It is good to move your body, like doing tag."], "labels": [0], "confs": [0]}
