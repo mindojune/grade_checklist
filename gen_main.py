@@ -228,26 +228,45 @@ def swap_nd(x, *args, **kwargs):
     return ret
 
 
+
 def object_test():
+    global food_ret, sport_ret, drug_ret, nondrug_ret
     """
     codeDictionary = {"D":0, "M":1, "S":2, "H":3, "F":4, "O":5, "E":6, "NA":7}
     """
-
+    
     editor = Editor()
-    food_ret = editor.template('How often do you get {food}?', food=food, labels=0, save=True) #, nsamples=100)   
+    food_ret1 = editor.template('How often do you get {food}?', food=food, labels=0, save=True) #, nsamples=100)   a
+    food_ret2 = editor.template('I can\'t stop thinking about {food}!', food=food, labels=0, save=True) #, nsamples=100)   
+    
+    food_ret = food_ret1 + food_ret2
+
+
     mft_food = MFT(food_ret.data, labels=food_ret.labels, name='Object Rec: Food',
            capability='Objects', description='Food')
     
 
-    sport_ret = editor.template('I have to participate in {sport}?', sport=sport, labels=6, save=True) #, nsamples=100)   
+    sport_ret1 = editor.template('I have to participate in {sport}?', sport=sport, labels=6, save=True) #, nsamples=100)   
+    sport_ret2 = editor.template('It is good to move your body, like doing {sport}.', sport=sport, labels=6, save=True) #, nsamples=100)   
+        
+    sport_ret = sport_ret1 + sport_ret2
+
     mft_sport = MFT(sport_ret.data, labels=sport_ret.labels, name='Object Rec: Sport',
            capability='Objects', description='Sport')
 
-    nondrug_ret = editor.template('How often do you get {nondrug}?', nondrug=nondrug, labels=5) #, save=True) #, nsamples=100)   
+    nondrug_ret1 = editor.template('How often do you take {nondrug}?', nondrug=nondrug, labels=5) #, save=True) #, nsamples=100)   
+    nondrug_ret2 = editor.template('Have you taken {nondrug} for the last five months?', nondrug=nondrug, labels=5) #, save=True) #, nsamples=100)   
+    
+    nondrug_ret =nondrug_ret1 + nondrug_ret2
+
     mft_nondrug = MFT(nondrug_ret.data, labels=nondrug_ret.labels, name='Object Rec: Non Drug',
            capability='Objects', description='Non Drug')
 
-    drug_ret = editor.template('How often do you get {drug}?', drug=drug, labels=1, save=True) #, nsamples=100)   
+    drug_ret1 = editor.template('How often do you get {drug}?', drug=drug, labels=1, save=True) #, nsamples=100)   
+    drug_ret2 = editor.template('Have you taken {drug} for the last five months?', drug=drug, labels=1, save=True) #, nsamples=100)   
+    
+    drug_ret = drug_ret1+ drug_ret2
+
     mft_drug = MFT(drug_ret.data, labels=drug_ret.labels, name='Object Rec: Drug',
            capability='Objects', description='Drug')
     
@@ -300,7 +319,7 @@ def object_test():
 
 def robustness_test():
     editor = Editor()
-    food_ret = editor.template('How often do you get {food}?', food=food, labels=0, save=True) #, nsamples=100)   
+    #food_ret = editor.template('How often do you get {food}?', food=food, labels=0, save=True) #, nsamples=100)   
  
     
     pdata = list(processor.pipe(food_ret.data))
@@ -310,6 +329,16 @@ def robustness_test():
     inv_food_punct = INV(**perturbed_punct, name='Minor Changes: Punctuation', capability='robustness',  description='')
     inv_food_typo = INV(**perturbed_typo, name='Minor Changes: Typos', capability='robustness',  description='')
 
+
+
+    pdata = list(processor.pipe(drug_ret.data))
+    perturbed_punct =  Perturb.perturb(pdata, Perturb.punctuation, keep_original=False)
+    perturbed_typo =  Perturb.perturb(drug_ret.data, Perturb.add_typos, keep_original=False)
+
+    inv_drug_punct = INV(**perturbed_punct, name='Minor Changes: Punctuation', capability='robustness',  description='')
+    inv_drug_typo = INV(**perturbed_typo, name='Minor Changes: Typos', capability='robustness',  description='')
+
+
     #Perturb.contract
     #Perturb.expand_contractions
     #Perturb.contractions
@@ -317,7 +346,9 @@ def robustness_test():
     #Perturb.change_location
     #Perturb.change_number
 
-    tests, names =  [inv_food_punct, inv_food_typo], ["inv_food_punct", "inv_food_typo"]
+    tests =  [inv_food_punct, inv_food_typo, inv_drug_punct, inv_drug_typo]
+
+    names = ["inv_food_punct", "inv_food_typo",  "inv_drug_punct", "inv_drug_typo"]
 
     for test, name in zip(tests, names):
         test.to_raw_file('./tests/'+name+'.txt')
